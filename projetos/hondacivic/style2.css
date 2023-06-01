@@ -1,0 +1,139 @@
+img{
+    width: 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+html::-webkit-scrollbar{
+    width:screm;
+}
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: screm;
+}
+.background{
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+}
+#cabecalho{
+    background-color: black;
+}
+body{
+    background-color:#fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:3rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.C-icon{
+    margin-right: 5rem ;
+}
+.icone ion-icon{
+    color: #fff;
+    font-size: 2rem;
+    cursor:pointer;
+}
+ul li a:hover{
+    text-transform: capitalize;
+    color:rgb(221, 17, 17);
+    border-bottom:solid 1px;
+}
+hr{
+    border-bottom: solid 0.1px;
+    color:white;
+    /* margin-top: 15px; */
+}
+img{
+    width: 300px;
+}
+body{
+    background-color:rgb(0, 0, 0);
+}
+p{
+color: #fff;
+}
+h3{
+    color: #fff;
+}
+h6{
+    color: #fff;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    font: weight 200px;;
+    color:rgb(70, 22, 22);
+}
+.heading p{
+    font-size: 0.938rem;
+    font-weight: 300;
+}
+.cars-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.cars-container .box{
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.cars-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.cars-container .box img:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    
+}
+.cars-container .box h2{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    font-weight: 300;
+    font-size: 1rem;
+    background: #fff;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.cars-container .box:hover h2{
+    background: #ce3f3f;
+    color:rgb(199, 188, 187);
+}

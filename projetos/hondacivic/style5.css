@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content:space-evenly;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: rgb(119, 37, 37);
+}
+.gato{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.text-main{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.desc{
+    color:rgb(253, 249, 249);
+    text-align: center;
+}
+
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: rgb(119, 37, 37);
+}
+.cao{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.text-main1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.desc1{
+    color:rgb(253, 249, 249);
+    text-align: center;
+}
+.botao{
+    margin-top: 2rem;
+    background-color:#ce3f3f;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.botao:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+    text-align:left
+}
+button{
+    color: #ce3f3f;
+}

@@ -1,0 +1,106 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+
+
+ h2 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     white-space: 1px;
+     font-size: 18px;
+ }
+
+
+ #imagem1 {
+
+     width:b 400px;
+     display: block;
+     margin: auto;
+    text-align: center;
+ }
+
+p{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: medium;
+
+}
+
+ #imagem2 {
+
+
+     width: 500px;
+     display: block;
+     margin: auto;
+     justify-content: center;
+
+ }
+
+ 
+
+ #imagem3 {
+
+     width: 500px;
+     display: block;
+     margin: auto;
+     justify-content: center;
+ }
+
+
+
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+
+ .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:red;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   
+   .logo {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color:#dd3341;
+    border-radius: 10px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 15px 14px;
+   }
+   
+
+
+ 
+ #titulo {
+     display: flex;
+     justify-content: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border: 30px;
+     background-color: red;
+     color: aliceblue;
+ }
+
+ 

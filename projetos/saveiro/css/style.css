@@ -1,0 +1,122 @@
+#cabecario {
+    display: flex;
+    justify-content: center;
+}
+
+#title img {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: x-large;
+    height: 155px;
+    width: auto;
+    margin: auto;
+}
+
+#corpo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#esquerdo {
+    width: 55%;
+    height: 200vh;
+}
+
+#recursos ul li {
+    list-style: none;
+    text-align: center;
+}
+
+#direito {
+    width: 25%;
+    height: 88vh;
+    border: 5px solid rgb(28, 18, 43);
+    border-radius: 20px;
+    align-self: flex-start;
+}
+
+#imagem_direito {
+    width: 15%;
+    height: 88vh;
+    align-self: flex-start;
+    flex-flow: wrap;
+}
+
+* {
+    background-color: rgb(186, 221, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(21, 16, 44);
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    justify-content: space-around;
+}
+
+#menu ul li a {
+    color: rgb(169, 166, 201);
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(128, 130, 255);
+    color: rgb(75, 75, 250);
+}
+
+#menu ul {
+    text-align: center;
+}
+
+.item {
+    color: rgb(21, 16, 44);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gallery-wrapper {
+    background-color: #bac4ff;
+    box-sizing: border-box;
+    height: 195px;
+    overflow: hidden;
+}
+
+.gallery-scroll {
+    box-sizing: border-box;
+    height: 195px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gallery {
+    background-color: #bac4ff;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content; height: 180px;
+    padding: 0px 8px;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+}
+
+.item img {
+    display: block;
+    height: 100%;
+}
