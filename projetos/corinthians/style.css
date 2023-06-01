@@ -1,0 +1,81 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+
+}
+#titulo{
+/* background-color: black; */
+color: white;
+text-align: center;
+font-size: 36px;
+font-style: oblique;
+padding: 25px;
+
+}
+#como{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+#estadios{
+    /* background-color: black; */
+    color: white;
+    font-size: 22px;
+    text-align: center;
+
+}
+img{
+    display: block;
+    margin: auto;
+
+}
+#campo{
+    text-align: center;
+}
+#lista{
+    display: flex;
+    text-align: justify;
+}
+
+.posicoes{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+    #hinos{
+        color: aliceblue;
+        font-size: 24px; 
+        text-align: center; 
+    }
+   #meio{
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+   }
+   #menu ul li{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 4px;
+   }
+   #quemsomos p{
+text-align: center;
+color: rgb(16, 76, 129);
+font-size: 24px;
+background-color: aliceblue;
+
+   }
+
+   #menu{
+    text-transform: uppercase;
+    color: white;
+   }
+   li a{
+    color: aliceblue;
+   }
+
+
