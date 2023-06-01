@@ -1,0 +1,44 @@
+body{
+    background: url(mosaico-torcida-fluminense-1.jpg) repeat-y;
+    background-size: cover;
+}
+
+.menu {
+    /* display: flex; */
+    
+    /* gap: 1em; */
+    font-size: 18px;
+}
+
+.menu ul{
+display: flex;
+list-style: none;
+color: white;
+justify-content: space-around;
+background-color: green;
+}
+
+.menu li:hover {
+    background-color: #86d162;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+}
+
+.menu li {
+    padding: 15px 14px;
+}
+
+.menu ul li a{
+    color: beige;
+    
+}
+p{ font-size: larger;
+    color: rgb(236, 255, 240);
+}
+h1{ 
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(255, 255, 255);
+}
+

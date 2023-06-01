@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(66, 172, 172);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+}
+
+img.imgprincipal {
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    border: 10px solid rgb(241, 237, 237)
+    
+}
+.center{
+    text-align: center;
+}
+#conq{
+    text-align: center;
+}
