@@ -1,0 +1,99 @@
+#menu ul {
+  list-style: none;
+  text-align: center;
+  font-style: none;
+}
+
+* {
+  color: rgb(66, 66, 122);
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: x-large;
+}
+
+body{
+  background: linear-gradient(45deg, rgb(242, 242, 242), rgb(221, 221, 221));
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu {
+  background: transparent;
+}
+
+#menu ul li a {
+  color: rgb(66, 66, 122);
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+#menu ul li a:hover {
+  color: rgb(19, 19, 91);
+  box-shadow: 0 0 10px rgb(19, 19, 91);
+}
+
+#menu ul {
+  text-align: center;
+}
+
+
+h1{
+  font-size: 80px;
+}
+.corpo p{
+  font-size: 24px;
+}
+
+footer{
+  font-size: 26x;
+  padding-top: 90px;
+}   
+
+.corpo img{
+
+ padding-top: 90px;
+}
+
+#gif{
+
+  display: block;
+}
+
+#mae{
+  display: flex;
+  padding-top: 100px;
+}
+#maefoda{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#segur h1{
+   font-size: 70px; 
+
+}
+
+#sh{
+  padding-top: 20px;
+}
+
+#sh{ 
+  padding-top: 20px;
+}
+
+#caro1{
+  padding-top: 30px;
+}
+#hb20{
+  
+}
+p{
+  padding-top: 90px;
+}
